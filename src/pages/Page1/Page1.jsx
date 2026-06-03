@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 const Page1 = () => {
   return (
     <section className='relative min-h-screen md:min-h-[100svh] w-full overflow-hidden text-white'>
-      <div className='absolute inset-0 bg-[url("./images/img1.png")] bg-cover bg-center'></div>
+      <div className='absolute inset-0 bg-[url("/images/img1.png")] bg-cover bg-center'></div>
       <div className='absolute inset-0 bg-black/10'></div>
       <Navbar />
       <div className='absolute left-3 sm:left-4 md:left-6 top-1/2 -translate-y-1/2 flex flex-col gap-2 z-20'>
